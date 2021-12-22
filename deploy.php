@@ -7,7 +7,7 @@ require 'recipe/common.php';
 set('application', 'test-dep');
 
 // Project repository
-set('repository', '');
+set('repository', 'https://github.com/ecolemouscronprojet/test-dep.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
 set('git_tty', true); 
